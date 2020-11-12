@@ -137,6 +137,15 @@ section{
     --ionicon-stroke-width: 16px;
 }
 
+.clearfix {zoom: 1}
+.clearfix::after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
 /* --------------------------------- */
 /*---- HEADER ----*/
 /* --------------------------------- */
@@ -234,4 +243,55 @@ header{
 .meal-photo img:hover{
     opacity: 1;
     transform: scale(1.03);
+}
+
+/* --------------------------------- */
+/*---- HOW-IT-WORKS SECTION ----*/
+/* --------------------------------- */
+
+.section-steps{
+    background-color: #f7f7f7;
+}
+
+.steps-box:first-child{
+    text-align: right;
+    margin-top: 30px;
+    padding-right: 3%;
+}
+
+.steps-box:last-child{
+    margin-top: 70px;
+    padding-left: 3%;
+}
+
+.app-screen{
+    width:40%
+}
+
+.work-steps{
+    margin-bottom: 50px;
+}
+
+.work-steps:last-of-type{
+    margin-bottom: 80px;
+}
+
+.work-steps div{
+    display: inline-block;
+    color: #e67e22;
+    border: 2px solid #e67e22;
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+    text-align: center;
+    padding: 6px;
+    font-size: 150%;
+    float: left;
+    margin-right: 25px;
+}
+
+.btn-app img{
+    height: 50px;
+    width: auto;
+
 }
