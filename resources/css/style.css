@@ -86,6 +86,22 @@ section{
     line-height: 145%;
 }
 
+/*------LINKS-----*/
+a:link,
+a:visited{
+    color: #e67e22;
+    text-decoration: none;
+    padding-bottom: 1px;
+    border-bottom: 1px solid #e67e22;
+    transition: color 0.3s, border-bottom 0.3s;
+}
+
+a:hover,
+a:active{
+    color: #555;
+    border-bottom: 1px solid transparent;
+}
+
 /*------BUTTONS-----*/
 
 .btn:link,
@@ -295,3 +311,33 @@ header{
     width: auto;
 
 }
+
+.btn-app:link,
+.btn-app:visited{
+    border: 0;
+}
+
+/* --------------------------------- */
+/*---- CITIES SECTION ----*/
+/* --------------------------------- */
+
+.section-cities img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.city-feature{
+    margin-bottom: 7px;
+}
+.city-feature p{
+    display: inline-block;
+    vertical-align: middle;
+}
+.section-cities ion-icon{
+    display: inline-block;
+    color: #e67e22;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
