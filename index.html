@@ -17,24 +17,25 @@
         <nav>
             <div class= "row">
                 <img src="resources/css/imgs/logo-white.png" alt="omnifoods logo" class="logo">
-                <ul class= "main-nav">
-                    <li><a href= "#">Food delivery</a></li>
-                    <li><a href= "#">How it works</a></li>
-                    <li><a href= "#">Our cities</a></li>
-                    <li><a href= "#">Sign up</a></li>
+                <img src="resources/css/imgs/logo.png" alt="omnifoods logo" class="logo-black"> 
+                <ul class= "main-nav">  
+                    <li><a href= "#features">Food delivery</a></li>
+                    <li><a href= "#steps">How it works</a></li>
+                    <li><a href= "#cities">Our cities</a></li>
+                    <li><a href= "#form">Sign up</a></li>
                 </ul>
             </div>
         </nav>
 
         <div class= "hero-text-box">
             <h1>Goodbye junk food.<br>Hello super healthy meals.</h1>
-            <a href= "#" class= "btn btn-full">I'm hungry</a>
-            <a href= "#" class= "btn btn-ghost">Show me more</a>
+            <a href= "#" class= "btn btn-full js--go-to-plans">I'm hungry</a>
+            <a href= "#" class= "btn btn-ghost js--go-to-start">Show me more</a>
         </div>
 
     </header>
     
-    <section class= "section-features">
+    <section class= "section-features js--section-features" id= "features">
 
         <div class= "row">
             
@@ -76,7 +77,7 @@
         </div>
     </section>
 
-    <section class= "section-meals">
+    <section class= "section-meals" id= "meals">
 
         <ul class= "meals-showcase clearfix">
             <li>
@@ -125,7 +126,7 @@
 
     </section>  
 
-    <section class= "section-steps">
+    <section class= "section-steps" id= "steps"> 
 
         <div class= "row">
             <h2>How it works &mdash; Simple as 1, 2, 3</h2>
@@ -156,7 +157,7 @@
 
     </section>
 
-    <section class= "section-cities">
+    <section class= "section-cities" id= "cities">
         
         <div class= "row">
             <h2>We're currently in these cities</h2>
@@ -256,7 +257,7 @@
 
     </section>
 
-    <section class= "section-plans">
+    <section class= "section-plans js--section-plans" id= "plans">
         <div class= "row">
             <h2>Start eating healthy today</h2>
         </div>
@@ -362,7 +363,7 @@
 
     </section>
 
-    <section class= "section-form">
+    <section class= "section-form" id= "form">
         <div class= "row">
             <h2>We're happy to hear from you</h2>
         </div>
@@ -461,6 +462,9 @@
         </div>
     </footer>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src= "vendors/js/jquery.waypoints.min.js"></script>
     <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+    <script src= "resources/js/script.js"></script>
 </body>
 </html>
